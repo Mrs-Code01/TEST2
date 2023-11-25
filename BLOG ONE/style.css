@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+header{
+    min-height: 370px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-text{
+    padding: 30px 20px;
+    background-color: #fff;
+    width: 30%;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    border-radius: 20px;
+}
+
+.header-text-line{
+    width: 50px;
+    height: 4px;
+    border-radius: 12px;
+    background-color: rgb(246, 74, 0);
+    margin-bottom: 6px;
+}
+
+.header-text h2{
+    font-size: 2rem;
+    line-height: 1.4;
+}
+/*******THIS IS THE END OF THE HEADER******/
+/*******THIS IS THE END OF THE HEADER******/
+/*******THIS IS THE END OF THE HEADER******/
+main{
+    padding: 60px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+main p:nth-of-type(1){
+    font-size: 2.4rem;
+    line-height: 1.4;
+}
+
+main h2:nth-of-type(1){
+    font-size: 2.7rem;
+    line-height: 1.4;
+    margin-top: 50px;
+}
+
+main p:nth-of-type(2){
+    font-size: 2.4rem;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+/*******THIS IS THE END OF THE MAIN*********/
+/*******THIS IS THE END OF THE MAIN*********/
+/*******THIS IS THE END OF THE MAIN*********/
+
+
+.section-one{
+    background-color: rgb(52, 52, 52);
+    padding: 60px 25px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.section-one h1{
+    font-size:3rem ;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.section-one-first h2:nth-of-type(1){
+    background-color: #fff;
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.section-one-first h2:nth-of-type(2){
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.section-one-first p{
+    color: #fff;
+    font-size: 2.2rem;
+    line-height: 1.4;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+.section-one .section-one-first:nth-of-type(1){
+    margin-bottom: 50px;
+}
+.section-one .section-one-first:nth-of-type(2){
+    margin-bottom: 50px;
+}
+/*******THIS IS THE END OF SECTION ONE*********/
+/*******THIS IS THE END OF SECTION ONE*********/
+/*******THIS IS THE END OF SECTION ONE*********/
+.section-two{
+    width: 50%;
+    margin: 60px auto;
+    line-height: 1.4;
+}
+
+.section-two > h2{
+    font-size: 3rem;
+}
+
+.section-two > p:nth-of-type(1){
+    margin: 30px 0;
+}
+
+.section-two > p:nth-of-type(3){
+    margin: 30px 0;
+}
+
+.section-two p{
+    font-size: 2.4rem;
+}
+
+.group-one-para{
+    margin-top: 30px;
+}
+
+#signing, #waging{
+    font-weight: 600;
+}
+
+.para-list-one span{
+    transition: all .5s ease-in;
+}
+
+.para-list-one p{
+    cursor: pointer;
+    line-height: 1.6;
+}
+
+.para-list-one p:nth-of-type(1):hover .aaa{
+    color: rgb(0, 55, 255);
+    font-weight: 600;
+}
+
+.para-list-one p:nth-of-type(2):hover .bbb{
+    color: rgb(255, 68, 0);
+    font-weight: 600;
+}
+
+.para-list-one p:nth-of-type(3):hover .ccc{
+    color: rgb(3, 173, 34);
+    font-weight: 600;
+}
+
+.para-list-one p:nth-of-type(4):hover .ddd{
+    color: rgb(64, 106, 161);
+    font-weight: 600;
+}
+
+.para-list-one p:nth-of-type(5):hover .eee{
+    color: rgb(120, 0, 160);
+    font-weight: 600;
+}
+
+.para-list-one p:nth-of-type(6):hover .fff{
+    color: rgb(0, 118, 79);
+    font-weight: 600;
+}
+
+.para-list-one p:nth-of-type(7):hover .ggg{
+    color: rgb(172, 0, 74);
+    font-weight: 600;
+}
+
+.eleven{
+    background-color: #232d38;
+    margin-top: 60px;
+    padding: 60px 25px;
+    text-align: center;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.eleven h2{
+    font-size: 2.4rem;
+}
+
+.eleven p{
+    font-size: 2.2rem;
+    margin-top: 15px;
+}
+/*******THIS IS THE END OF SECTION TWO*******/
+/*******THIS IS THE END OF SECTION TWO*******/
+/*******THIS IS THE END OF SECTION TWO*******/
+.section-three{
+    width: 50%;
+    margin: 60px auto;
+    line-height: 1.4;
+}
+
+.section-three > h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.para-list-two p{
+    font-size: 2.4rem;
+}
+
+.para-list-two p:not(:last-child){
+    margin-bottom: 15px;
+}
+/*******THIS IS THE END OF SECTION THREE*******/
+/*******THIS IS THE END OF SECTION THREE*******/
+/*******THIS IS THE END OF SECTION THREE*******/
+footer{
+    background-color: black;
+    padding: 20px 0;
+}
+
+footer a{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-weight: 600;
+    transition: all .3s ease-in;
+} 
+
+footer a:hover{
+    opacity: .5;
+}
+
+
+@media screen and (max-width:1000px){
+    .header-text{
+        width: 45%;
+    }
+
+    main, .section-one, .section-two, .section-three {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .header-text{
+        width: 60%;
+        left: 0;
+        left: 5%;
+    }
+
+    main, .section-one, .section-two, .section-three {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:520px){
+    .header-text{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .header-text{
+        width: 90%;
+    }
+}
+
